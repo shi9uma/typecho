@@ -13,6 +13,13 @@ Typecho is released under the GNU General Public License 2.0.
 3.   本地合并：`git merge src/slave`，手动解决冲突
 4.   合并完成后重新 push：`git push origin slave`
 
+或者使用 fork 的 update：
+
+1.   `git checkout master`
+2.   `git pull`
+3.   `git checkout slave`，`git merge master`，解决冲突
+4.   `git push origin slave`
+
 ## Main Features
 
 * Multiple databases support (MySQL, SQLite, PostgreSQL)
