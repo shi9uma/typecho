@@ -4,6 +4,8 @@ Typecho Blogging Platform
 Typecho is a PHP-based blog software and is designed to be the most powerful blog engine in the world.
 Typecho is released under the GNU General Public License 2.0.
 
+个人自用 typecho 的一些魔改，也方便同步云端
+
 ## Main Features
 
 * Multiple databases support (MySQL, SQLite, PostgreSQL)
