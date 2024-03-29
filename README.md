@@ -4,7 +4,14 @@ Typecho Blogging Platform
 Typecho is a PHP-based blog software and is designed to be the most powerful blog engine in the world.
 Typecho is released under the GNU General Public License 2.0.
 
-个人自用 typecho 的一些魔改，也方便同步云端
+个人自用 typecho 的一些魔改，也方便同步官方
+
+## sync
+
+1.   添加原项目的映射：`git remote add src https://github.com/typecho/typecho.git`
+2.   获取更新：`git fetch src`
+3.   本地合并：`git merge src/slave`，手动解决冲突
+4.   合并完成后重新 push：`git push origin slave`
 
 ## Main Features
 
