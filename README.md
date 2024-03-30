@@ -20,6 +20,12 @@ Typecho is released under the GNU General Public License 2.0.
 3.   `git checkout slave`，`git merge master`，解决冲突
 4.   `git push origin slave`
 
+## 几个好用的 plugin
+
+1.   [kokororin/typecho-plugin-Access](https://github.com/kokororin/typecho-plugin-Access.git)
+2.   [DT27/EditorMD](https://github.com/DT27/EditorMD.git)
+3.   [handsome](https://www.ihewro.com/archives/489/)
+
 ## Main Features
 
 * Multiple databases support (MySQL, SQLite, PostgreSQL)
